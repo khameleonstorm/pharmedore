@@ -25,12 +25,12 @@ export default function Nav() {
           <img src={logo} alt="logo"/>
         </Link>
 
-        <div className={s.menu}  style={showMenu ? {right:  "0"} : {right:  '-100%'}} onClick={handleClick}>
+        <div className={s.menu}  style={showMenu ? {right:  "0"} : {right:  '-100%'}}>
           <div className={s.links}>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/">About</NavLink>
-            <NavLink to="/">Expertise</NavLink>
-            <NavLink to="/">Contact Us</NavLink>
+            <NavLink to="/" onClick={() => setShowMenu(false)}>Home</NavLink>
+            <NavLink to="/" onClick={() => setShowMenu(false)}>About</NavLink>
+            <NavLink to="/" onClick={() => setShowMenu(false)}>Expertise</NavLink>
+            <NavLink to="/" onClick={() => setShowMenu(false)}>Contact Us</NavLink>
             <NavLink to="/" className={s.pharmacy} onClick={() => setShowDrop(!showDrop)} onMouseEnter={() => setShowDrop(true)} onMouseLeave={() => setShowDrop(false)}>
                 Pharmacy 
                 <RiArrowDownSLine />
@@ -46,7 +46,7 @@ export default function Nav() {
 
           <div className={s.auth}>   
             <CartIcon className={s.cart1} />
-            <VscChromeClose className={s.close} />
+            <VscChromeClose className={s.close} onClick={() => setShowMenu(false)}/>
           
             <Link className={s.login} to="/">Sign In</Link>
             <Link className={s.signup} to="/">Register</Link>

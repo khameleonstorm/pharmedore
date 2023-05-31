@@ -13,7 +13,7 @@ export default function Recents({drugs}) {
   useEffect(() => {
     const handleResize = () => {
       const windowWidth = window.innerWidth;
-      if (windowWidth >= 950) {
+      if (windowWidth >= 600) {
         setSlidesPerView(3);
       } else {
         setSlidesPerView(1);

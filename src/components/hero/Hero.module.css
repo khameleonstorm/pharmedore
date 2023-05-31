@@ -64,6 +64,11 @@
 
 
 @media screen and (max-width: 800px){
+.txt{
+  height: fit-content;
+  margin-bottom: -100px;
+}
+
 .txt h1{
   font-size: 6vw;
 }
