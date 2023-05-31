@@ -59,3 +59,19 @@
   border-top: .5px solid #ffffff1f;
   color: #ffffffaa;
 }
+
+
+
+@media screen and (max-width: 950px){
+.wrp{
+  flex-direction: column;
+  padding: 50px 20px;
+  text-align: center;
+  gap: 60px;
+}
+
+.logo{
+  width: 100%;
+  margin: 0 auto;
+}
+}

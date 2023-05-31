@@ -38,3 +38,30 @@
   font-weight: 500;
   color: #031C6E;
 }
+
+.txt p{
+  font-size: 1rem;
+  font-weight: 100;
+  color: #141414;
+}
+
+
+@media screen and (max-width: 950px){
+.ctn{
+  height: 70vh;
+  background-size: 400%;
+}
+
+.wrp{
+  padding: 0 20px;
+}
+
+.txt h1{
+  font-size: 8.5vw;
+}
+
+.img{
+  display: none;
+}
+
+}

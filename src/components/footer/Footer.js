@@ -12,7 +12,7 @@ export default function Footer() {
           <img src={logo} alt="logo"/>
           <p className={s.subtitle}>MEDICINE WITHOUT BORDERS</p>
           <p className={s.desc}>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+            By bridging the gap between pharmaceutical companies and retailers, we strive to enhance healthcare accessibility.
           </p>
         </div>
         <div className={s.quickLinks}>

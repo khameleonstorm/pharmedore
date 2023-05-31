@@ -15,7 +15,7 @@
 }
 
 .logo img{
-  width: 90px;
+  width: 120px;
 }
 
 .menu{
@@ -31,6 +31,19 @@
   gap: 30px;
   color: #ffffff;
   font-size: .9rem;
+}
+
+.pharmacy{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  transition: all ease-in-out .5s;
+}
+
+.pharmacy svg{
+  fill: white;
+  font-size: 1.5rem;
 }
 
 .auth{
@@ -68,10 +81,94 @@
   transition: all ease .3s;
 }
 
-.cart2, .hamburger{
+.cart2, .hamburger, .close{
   display: none;
 }
 
 .cart1{
   padding: 3px;
+}
+
+.drop{
+  height: 100px;
+  padding: 0px 20px;
+  border-radius: 10px;
+  background-color: white;
+  color: #031C6E;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all ease-in-out .5s;
+}
+
+@media screen and (max-width: 950px){
+.wrp{
+  padding: 0 10px;
+}
+
+.menu{
+  width: 290px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  background: #031C6E;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-bottom: 10vh;
+  transition: all ease-in-out .4s;
+  z-index: 100000;
+}
+
+.links{
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 30px;
+  margin-top: 30vh;
+  font-size: 1.3rem;
+  padding-right: 30px;
+}
+
+.auth{
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login, .signup{
+  width: 80%;
+  padding: 14px;
+}
+
+.cart1{
+  display: none;
+}
+
+.cart2, .close, .hamburger{
+  display: block;
+}
+
+.cart2{
+  padding: 3px;
+}
+
+.close{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: #ffffff;
+}
+
+.hamburger{
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.close{
+  color: #ffffff;
+  font-size: 2rem;
+}
 }

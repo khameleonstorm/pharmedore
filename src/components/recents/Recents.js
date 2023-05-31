@@ -11,7 +11,7 @@ export default function Recents({drugs}) {
     <div className={s.ctn}>
       <h1 className='title'>Our Recent Products</h1>
       <Swiper
-        slidesPerView={3.2}
+        slidesPerView={1}
         freeMode={true}
         navigation={true}
         modules={[FreeMode, Navigation]}
