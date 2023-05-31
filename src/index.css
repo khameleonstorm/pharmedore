@@ -15,6 +15,11 @@ a{
   color: inherit;
 }
 
+p{
+  line-height: 1.7;
+  font-weight: 200;
+}
+
 button{
   background: none;
   border: none;

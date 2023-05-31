@@ -7,7 +7,7 @@ export default function Cards({cards}) {
       <div className={s.wrp}>
         {cards.map((card, i) => 
           <div className={s.card} key={i}>
-            <div className={s.img}><img src={card.img} alt={card.title}/></div>
+            <div className={s.icon}>{card.icon}</div>
             <h1>{card.title}</h1>
             <p>{card.desc}</p>
             {card.btn}

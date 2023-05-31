@@ -3,19 +3,46 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
-import { FreeMode, Navigation } from "swiper";
+import { FreeMode, Navigation, Autoplay } from "swiper";
 import { Rating } from '@mui/material';
+import { useEffect, useState } from 'react';
 
 export default function Recents({drugs}) {
+  const [slidesPerView, setSlidesPerView] = useState(1);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const windowWidth = window.innerWidth;
+      if (windowWidth >= 950) {
+        setSlidesPerView(3);
+      } else {
+        setSlidesPerView(1);
+      }
+    };
+
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+
   return (
     <div className={s.ctn}>
       <h1 className='title'>Our Recent Products</h1>
       <Swiper
-        slidesPerView={1}
+        slidesPerView={slidesPerView}
         freeMode={true}
         navigation={true}
-        modules={[FreeMode, Navigation]}
+        modules={[FreeMode, Navigation, Autoplay]}
         className={s.wrp}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
       >
 
           {drugs.map((drug, i) => 

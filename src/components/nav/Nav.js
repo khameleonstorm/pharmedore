@@ -38,7 +38,7 @@ export default function Nav() {
                 {showDrop &&
                 <div className={s.drop} onMouseLeave={() => setShowDrop(false)}>
                   <p>Retailers</p>
-                  <p>Manufacturers</p>
+                  <p>Wholesalers</p>
                 </div>
                 }
             </NavLink>

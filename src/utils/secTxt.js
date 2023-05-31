@@ -1,7 +1,7 @@
 import pharmacist from '../assets/Pharmacist.png'
-import medcase from '../assets/medcase.svg'
-import med from '../assets/med.svg'
-import micro from '../assets/micro.svg'
+import { ReactComponent as Medcase } from '../assets/medcase.svg';
+import { ReactComponent as Med } from '../assets/med.svg';
+import { ReactComponent as Micro } from '../assets/medcase.svg';
 import { RiArrowRightLine } from 'react-icons/ri'
 
 export const secTxt1 = {
@@ -15,20 +15,20 @@ export const secTxt1 = {
 export const secTxt2 = [
   {
     title: 'Medications',
-    desc: 'We are dedicated to meeting your prescription needs, including those recommended by your physician. We have the capability to fill even rare or hard-to-find medications.',
-    img: medcase,
+    desc: 'We cater to your prescription needs, including those recommended by your physician. Our expertise lies in filling rare or hard-to-find medications.',
+    icon: <Medcase />,
     btn: <b>View More <RiArrowRightLine /></b>
   },
   {
     title: 'Pharma Solutions',
-    desc: 'We serve as a bridge, connecting pharmaceutical manufacturers directly to a network of pharmacies and distributors. By eliminating intermediaries,',
-    img: micro,
+    desc: 'We serve as a bridge, connecting pharmaceutical manufacturers directly to a network of pharmacies and distributors. By eliminating intermediaries,',
+    icon: <Micro />,
     btn: <b>View More <RiArrowRightLine /></b>
   },
   {
     title: 'Diagnostic Solutions',
-    desc: 'Our Diagnostic Solution is designed to support healthcare providers in delivering accurate and efficient diagnoses, leading to improved patient care and outcomes.',
-    img: med,
+    desc: 'Our Diagnostic Solution is designed to support healthcare providers in delivering accurate and efficient diagnoses to improved care and outcomes.',
+    icon: <Med />,
     btn: <b>View More <RiArrowRightLine /></b>
   },
 ]
