@@ -53,8 +53,11 @@ export default function Nav() {
           </div>
         </div>
 
-        <CartIcon className={s.cart2} />
-        <CgMenuRight className={s.hamburger} onClick={handleClick} />
+
+        <div className={s.mobileIcons}> 
+          <CartIcon className={s.cart2} />
+          <CgMenuRight className={s.hamburger} onClick={handleClick} />
+        </div>
       </div>
     </nav>
   )

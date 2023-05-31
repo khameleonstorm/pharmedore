@@ -47,7 +47,7 @@ export default function Recents({drugs}) {
 
           {drugs.map((drug, i) => 
           <SwiperSlide className={s.slide} key={i}>
-            <div className={s.img}><img src={drug.img} alt='product image'/></div>
+            <div className={s.img}><img src={drug.img} alt='product'/></div>
 
             <div className={s.txt}>
               <div className={s.header}>
