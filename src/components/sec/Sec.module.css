@@ -23,6 +23,7 @@
 
 .txt p{
   font-size: .9rem;
+  margin-top: -30px;
 }
 
 .img img{
@@ -30,14 +31,29 @@
 }
 
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 1000px){
 .ctn{
   height: auto;
   padding: 50px 0;
 }
 
 .wrp{
-padding: 0 20px;
+  padding: 0 20px;
+}
+
+.img img{
+  width: 300px;
+}
+}
+
+
+@media screen and (max-width: 600px){
+.ctn{
+  height: auto;
+  padding: 50px 0;
+}
+
+.wrp{
 flex-direction: column;
 align-items: center;
 gap: 60px;

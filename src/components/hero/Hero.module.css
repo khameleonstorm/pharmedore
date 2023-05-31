@@ -46,22 +46,36 @@
 }
 
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 1000px){
 .ctn{
-  height: 70vh;
-  background-size: 400%;
+  height: 90vh;
+  background-size: 300%;
 }
 
 .wrp{
   padding: 0 20px;
 }
 
+.img img{
+  width: 250px;
+}
+
+}
+
+
+@media screen and (max-width: 800px){
 .txt h1{
-  font-size: 8.5vw;
+  font-size: 6vw;
 }
 
 .img{
   display: none;
 }
 
+}
+
+@media screen and (max-width: 600px){
+.txt h1{
+  font-size: 8vw;
+}
 }

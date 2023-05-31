@@ -17,7 +17,6 @@ export default function Footer() {
         </div>
         <div className={s.quickLinks}>
           <h1 className='title' style={{fontSize: '1.1rem', color: '#29ABE2'}}>Quick Links</h1>
-          <p>Home</p>
           <p>About</p>
           <p>Expertise</p>
           <p>Contact</p>
@@ -25,7 +24,7 @@ export default function Footer() {
         </div>
         <div className={s.contactDetails}>
           <h1 className='title' style={{fontSize: '1.1rem', color: '#29ABE2'}}>Contact Details</h1>
-          <p><GoLocation /> 1234 Street Name, City Name, United States</p>
+          <p><GoLocation /> 2501 Bill Moses Parkway, Farmers Branch, 75234 Texas</p>
           <p><AiOutlineMail /> support@pharmedore.com</p>
           <p><AiOutlinePhone /> +1(431) 023 9876</p>
         </div>

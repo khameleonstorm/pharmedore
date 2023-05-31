@@ -121,9 +121,12 @@ li{
 
 
 @media screen and (max-width: 950px){
-  
 .title{
   font-size: 1.8rem;
+}
+
+.bigBtn{
+  padding: 15px 25px;
 }
   
 }
