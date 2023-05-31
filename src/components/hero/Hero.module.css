@@ -15,6 +15,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+  padding-top: 100px;
 }
 
 .txt{
@@ -80,6 +81,10 @@
 }
 
 @media screen and (max-width: 600px){
+.ctn{
+  background-size: 600%;
+}
+
 .txt h1{
   font-size: 8vw;
 }
