@@ -8,15 +8,15 @@ import { Rating } from '@mui/material';
 import { useEffect, useState } from 'react';
 
 export default function Recents({drugs}) {
-  const [slidesPerView, setSlidesPerView] = useState(1);
+  const [slidesPerView, setSlidesPerView] = useState(0.94);
 
   useEffect(() => {
     const handleResize = () => {
       const windowWidth = window.innerWidth;
       if (windowWidth >= 600) {
-        setSlidesPerView(3);
+        setSlidesPerView(3.3);
       } else {
-        setSlidesPerView(1);
+        setSlidesPerView(0.97);
       }
     };
 

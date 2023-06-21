@@ -28,9 +28,9 @@ export default function Nav() {
         <div className={s.menu}  style={showMenu ? {right:  "0"} : {right:  '-100%'}}>
           <div className={s.links}>
             <NavLink to="/" onClick={() => setShowMenu(false)}>Home</NavLink>
-            <NavLink to="/" onClick={() => setShowMenu(false)}>About</NavLink>
-            <NavLink to="/" onClick={() => setShowMenu(false)}>Expertise</NavLink>
-            <NavLink to="/" onClick={() => setShowMenu(false)}>Contact Us</NavLink>
+            <NavLink to="/about" onClick={() => setShowMenu(false)}>About</NavLink>
+            <NavLink to="/expertise" onClick={() => setShowMenu(false)}>Expertise</NavLink>
+            <NavLink to="/contact" onClick={() => setShowMenu(false)}>Contact Us</NavLink>
             <NavLink to="/" className={s.pharmacy} onClick={() => setShowDrop(!showDrop)} onMouseEnter={() => setShowDrop(true)} onMouseLeave={() => setShowDrop(false)}>
                 Pharmacy 
                 <RiArrowDownSLine />

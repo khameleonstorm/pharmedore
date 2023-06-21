@@ -39,6 +39,13 @@
   text-align: center;
 }
 
+.title{
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #29ABE2;
+}
+
 .quickLinks, .contactDetails, .legal{
   display: flex;
   flex-direction: column;

@@ -21,9 +21,14 @@
   gap: 20px;
 }
 
+.txt h3{
+  font-size: .9rem;
+  color: #29ABE2;
+}
+
 .txt p{
   font-size: .9rem;
-  margin-top: -30px;
+  font-weight: 400;
 }
 
 .img img{
@@ -54,9 +59,9 @@
 }
 
 .wrp{
-flex-direction: column;
-align-items: center;
-gap: 60px;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
 }
 
 .img{

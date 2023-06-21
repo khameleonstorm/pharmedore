@@ -101,10 +101,12 @@ li{
   border-radius: 50%;
   background-color: #ffffff !important;
   position: absolute;
+  top: -50px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
+  color: #29ABE2;
 }
 
 .swiper-button-prev::before{
@@ -118,6 +120,11 @@ li{
   gap: 20px;
 }
 
+.founder{
+  width: 100%;
+  max-width: 350px;
+}
+
 
 
 @media screen and (max-width: 950px){
@@ -127,6 +134,11 @@ li{
 
 .bigBtn{
   padding: 15px 25px;
+}
+
+
+.swiper-wrapper{
+  gap: 10px;
 }
   
 }
