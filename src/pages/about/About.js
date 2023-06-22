@@ -1,7 +1,6 @@
 import Hero2 from '../../components/hero2/Hero2'
 import Nav from '../../components/nav/Nav'
 import Footer from '../../components/footer/Footer'
-import s from './About.module.css'
 import Cards2 from '../../components/cards2/Cards2'
 
 // import text data
@@ -14,7 +13,7 @@ import Testimonials from '../../components/testimonials/Testimonials'
 
 export default function About() {
   return (
-    <div className={s.ctn}>
+    <>
       <Nav />
       <Hero2 data={aboutTxt}/>
       <AboutNote />
@@ -22,6 +21,6 @@ export default function About() {
       <Sec data={foundersMessage}/>
       <Testimonials data={testimonies}/>
       <Footer />
-    </div>
+    </>
   )
 }

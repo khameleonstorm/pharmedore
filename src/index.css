@@ -125,6 +125,17 @@ li{
   max-width: 350px;
 }
 
+.holdingDrugs{
+  width: 100% !important;
+  max-width: 400px !important;
+}
+
+.smilingDoctor{
+  width: 100% !important;
+  max-width: 323px !important;
+  left: 220px !important;
+}
+
 
 
 @media screen and (max-width: 950px){
@@ -136,9 +147,17 @@ li{
   padding: 15px 25px;
 }
 
-
 .swiper-wrapper{
   gap: 10px;
+}
+
+.holdingDrugs{
+  max-width: 80% !important;
+}
+
+.smilingDoctor{
+  max-width: 65% !important;
+  left: 150px !important;
 }
   
 }

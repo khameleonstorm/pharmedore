@@ -7,6 +7,8 @@ import { ReactComponent as Star } from '../assets/star.svg';
 import { ReactComponent as Gavel } from '../assets/gavel.svg';
 import { ReactComponent as Balance } from '../assets/balance.svg';
 import { ReactComponent as Heart } from '../assets/heart.svg';
+import { ReactComponent as Wave } from '../assets/wave.svg';
+import { ReactComponent as Drug } from '../assets/drug.svg';
 import { RiArrowRightLine } from 'react-icons/ri'
 
 export const secTxt1 = {
@@ -43,6 +45,34 @@ export const secTxt2 = [
     desc: 'Our Diagnostic Solution is designed to support healthcare providers in delivering accurate and efficient diagnoses to improved care and outcomes.',
     icon: <Med />,
     btn: <b>View More <RiArrowRightLine /></b>
+  },
+]
+
+export const expertise = [
+  {
+    title: 'Order Management',
+    desc: 'Order Management: Our Order Management system integrates with inventory management solutions, allowing healthcare providers to monitor medication stock levels, track expiration dates, and receive automated alerts for reordering. This platform provides a user-friendly interface, real-time inventory visibility and automated order processing.',
+    icon: <Wave />
+  },
+  {
+    title: 'Medications',
+    desc: 'We are dedicated to meeting your prescription needs, including those recommended by your physician. We have the capability to fill even rare or hard-to-find medications. Our inventory consists of a wide range of oral medications, self-injectables, and other supportive therapies.oral medications, self-injectables, and other supportive therapies.',
+    icon: <Medcase />
+  },
+  {
+    title: 'Pharma Solutions',
+    desc: 'Order Management: Our Order Management system integrates with inventory management solutions, allowing healthcare providers to monitor medication stock levels, track expiration dates, and receive automated alerts for reordering. This platform provides a user-friendly interface, real-time inventory visibility and automated order processing.',
+    icon: <Micro />
+  },
+  {
+    title: 'Diagnostic Solutions',
+    desc: 'We are dedicated to meeting your prescription needs, including those recommended by your physician. We have the capability to fill even rare or hard-to-find medications. Our inventory consists of a wide range of oral medications, self-injectables, and other supportive therapies.oral medications, self-injectables, and other supportive therapies.',
+    icon: <Med />
+  },
+  {
+    title: 'Telemedicine and Remote Monitoring',
+    desc: 'Order Management: Our Order Management system integrates with inventory management solutions, allowing healthcare providers to monitor medication stock levels, track expiration dates, and receive automated alerts for reordering. This platform provides a user-friendly interface, real-time inventory visibility and automated order processing.',
+    icon: <Drug />
   },
 ]
 

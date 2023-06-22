@@ -16,7 +16,7 @@ export default function Testimonials({ data }) {
       if (windowWidth >= 600) {
         setSlidesPerView(2);
       } else {
-        setSlidesPerView(0.95);
+        setSlidesPerView(0.99);
       }
     };
 
@@ -39,7 +39,7 @@ export default function Testimonials({ data }) {
         modules={[FreeMode, Autoplay]}
         className={s.wrp}
         autoplay={{
-          delay: 2500,
+          delay: 3000,
           disableOnInteraction: false,
         }}
       >
