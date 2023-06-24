@@ -58,12 +58,6 @@
   font-weight: 300;
 }
 
-.infoItem{
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
-}
-
 .contact{
   display: flex;
   flex-direction: column;

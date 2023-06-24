@@ -14,11 +14,10 @@ export default function ContactForm() {
         <div className={s.info}>
             <h2>Contact Info</h2>
 
-          <div className={s.infoItem}>
             <div className={s.contact}>
               <a href="tel:+14310239876"><BiPhone color='white' size='1.6rem'/> +1(431) 023 9876</a>
               <a href="mailto:support@pharmedore.com"><VscMail color='white' size='1.6rem'/> support@pharmedore.com</a>
-              <a href="https://www.google.com/maps" target="_blank" rel="noreferrer"><GoLocation color='white' size='1.6rem'/> 2501 Bill Moses Parkway, Farmers Branch, 75234 Texas.</a>
+              <a href="https://www.google.com/maps" target="_blank" rel="noreferrer"><GoLocation color='white' size='2rem'/> 2501 Bill Moses Parkway, Farmers Branch, 75234 Texas.</a>
             </div>
 
             <div className={s.socials}>
@@ -26,8 +25,6 @@ export default function ContactForm() {
               <a href='/'><FaInstagramSquare color='white' size='1.5rem'/></a>
               <a href='/'><FaTwitterSquare color='white' size='1.5rem'/></a>
             </div>
-
-          </div>
         </div>
 
         <form className={s.form}>
